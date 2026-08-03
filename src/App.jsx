@@ -178,7 +178,7 @@ function LoginScreen() {
           <div style={{ fontSize: 26, fontWeight: 800, letterSpacing: -0.5, color: "#e8eaf0" }}>
             gswmind<span style={{ color: "#7c5cff" }}>.</span>
           </div>
-          <div style={{ fontSize: 13, color: "#6b7180", marginTop: 4 }}>seu organizador pessoal, sincronizado</div>
+        
         </div>
 
         <form onSubmit={submit} style={{ background: "#17171d", border: "1px solid #26262e", borderRadius: 16, padding: 22, display: "flex", flexDirection: "column", gap: 12 }}>
@@ -210,9 +210,7 @@ function LoginScreen() {
           </button>
         </form>
 
-        <div style={{ textAlign: "center", fontSize: 11.5, color: "#4a4e5a", marginTop: 14 }}>
-          Acesso restrito. Só contas cadastradas pelo administrador entram.
-        </div>
+        
       </div>
     </div>
   );
